@@ -1,0 +1,7 @@
+body {
+    background: #FFFFFF;
+}
+
+.contacter:hover{
+    content: url('img/contacter_hover.png');
+}
