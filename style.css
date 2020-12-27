@@ -5,3 +5,12 @@ body {
 .contacter:hover{
     content: url('img/contacter_hover.png');
 }
+
+.fa {
+    color: black;
+    transition: transform .5s;
+}
+
+.fa:hover {
+    transform: scale(1.2);
+}
