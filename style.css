@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
 html, body {
   height: 100%;
 }
@@ -6,6 +8,14 @@ body {
   display: flex;
   flex-direction: column;
   background: #FFFFFF;
+}
+
+h2, h3 {
+    font-family: "Century Gothic", Arial;
+}
+
+p {
+    font-family: "Quicksand", "Century Gothic", Arial;
 }
 
 .contacter:hover {
