@@ -14,26 +14,30 @@
     <title>VLT Production</title>
   </head>
   <body>
-      <!-- NAVBAR -->
-      <nav class="navbar navbar-expand-md navbar-light ">
-          <ul class="navbar-nav mr-auto mx-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html#clip">CLIP VIDÉO</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="index.html#pub">PUBLICITÉ</a>
-            </li>
-            <li>
-              <a class="navbar-brand" href="index.html#"><img src="img/logo.png" class="img-fluid" alt="VLT logo" width="30"></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="index.html#demo">BANDE-DÉMO</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="index.html#montage">MONTAGE</a>
-            </li>
-          </ul>
-      </nav>
+     <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-md fixed-to navbar-light my-4">
+        <a class="navbar-brand" href="#"><img src="img/logo.png" class="img-fluid" alt="VLT logo" width="60"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto mx-auto justify-content-around w-100">
+              <li class="nav-item">
+                <a class="nav-link" href="#clip">CLIP VIDÉO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pub">PUBLICITÉ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#demo">BANDE-DÉMO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#montage">MONTAGE</a>
+              </li>
+            </ul>
+        </div>
+    </nav>
 
       <div class="content">
           <div class="container">
@@ -44,24 +48,27 @@
       </div>
 
       <!-- FOOTER -->
-      <footer class="footer container-fluid">
-          <div class="row d-flex justify-content-center text-center">
+      <footer class="footer container-fluid mt-4">
+          <div class="flex-row d-flex justify-content-around text-center">
               <div class="col-lg-2 col-md-2 col-xs-2">
-                  <a target="blank" href="https://www.facebook.com/VLTPROD"><i class="fa fa-5x fa-facebook-square"></i></a>
+                  <a target="blank" href="https://www.facebook.com/VLTPROD"><i class="fa fa-3x fa-facebook-square"></i></a>
               </div>
               <div class="col-lg-2 col-md-2 col-xs-2">
-                  <a target="blank" href="https://twitter.com/VLTPROD"><i class="fa fa-5x fa-twitter-square"></i></a>
+                  <a target="blank" href="https://twitter.com/VLTPROD"><i class="fa fa-3x fa-twitter-square"></i></a>
               </div>
               <div class="col-lg-2 col-md-2 col-xs-2">
-                  <a target="blank" href="https://www.instagram.com/vltprod/"><i class="fa fa-5x fa-instagram"></i></a>
+                  <a target="blank" href="https://www.instagram.com/vltprod/"><i class="fa fa-3x fa-instagram"></i></a>
               </div>
           </div>
-          <div class="row justify-content-center">
+          <div class="row justify-content-center mt-4">
               <p class="text-center">
                   &copy;<script>document.write(new Date().getFullYear())</script> <a target="blank" href="http://leoiscool.com">L&eacute;o Chely</a>
               </p>
           </div>
       </footer>
 
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
   </body>
 </html>
