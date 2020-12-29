@@ -20,6 +20,7 @@ body {
 
 h2, h3 {
     font-family: "Century Gothic", Arial;
+    margin-top: 3em; 
 }
 
 p {
